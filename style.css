@@ -1,0 +1,64 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+.container {
+width: 50%;
+margin: 50px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+text-align: center;
+}
+.form-group {
+margin-bottom: 20px;
+}
+label {
+display: block;
+margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+a {
+padding: 10px 20px;
+font-size: 16px;
+background-color:#333;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+a:hover {
+background-color: #0056b3;
+}
+.topnav {
+padding-top:0.5cm;
+padding-bottom:0.5cm;
+padding-left: 5cm;
+overflow: hidden;
+background-color: #333;
+}
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 1px 100px;
+text-decoration: none;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
